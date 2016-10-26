@@ -1,0 +1,64 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One|PT+Sans+Narrow');
+
+body {
+	text-align: center;
+	padding: 20px;
+}
+body, main, .box, .link {
+	margin: 0 auto;
+}
+body, button, a{
+	background-color: #27ae60;
+	color: white;
+	font-family: 'Gravitas One', cursive;
+}
+main {
+	width: 60%;
+	text-align: center;
+}
+button {
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-color: #f39c12;
+}
+button:focus {
+ 	outline: none;
+}
+ button:hover {
+	background: white;
+	color: #f39c12;
+}
+ a {
+ 	display: block;
+ 	text-decoration: none;
+ 	position: static;
+ 	bottom: 50px;
+ 	background-color: #4099FF;
+ 	display: block;
+ 	margin: 0 auto;
+ }
+ h1 { 
+	color: yellow;
+	font-size: 50px;
+	font-family: 'PT Sans Narrow', sans-serif;
+ }
+ .box {
+ 	padding-top: 50px;
+ 	width: 100%;
+ 	height: 300px;
+}
+ a, button {
+ 	border: 1px solid white;
+ 	border-radius: 5px;
+ 	padding: 20px;
+ 	font-size: 25px;
+ 	width: 35%;
+ }
+ a:hover, button:hover {
+ 	text-shadow: none;
+ }
+ a:hover {
+ 	background: white;
+ 	color: #4099FF;
+}
