@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+	background: #3498db;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.countryNames {
+	color: #8e44ad;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.countryNames, h3 {
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.headings {
+	color: #c0392b; 
+}
+
+h1 {
+	color: #34495e;
+	font-weight: bold;
+}
